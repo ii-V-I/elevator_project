@@ -15,6 +15,7 @@ The results of a given input are printed to the console.
 # Assumptions
 1. All inputs are well formed.
 2. The valid floor input range is 1-124. 124 comes from the Shanghai Tower in China. 
+3. The user will execute one command at a time.
 
 # Commands
 1. --floors start floor,floor,floor,etc
