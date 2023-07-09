@@ -3,7 +3,7 @@
 2. cd mkdir 
 3. cmake ..
 4. cmake --build .
-5. ./elevator <your command and arguements>
+5. ./elevator *your command and arguements*
 
 # Description
 The purpose of this project is to simulate an elevator. I have chosen to do this by creating an executable that can take different commands. The implementation of this
