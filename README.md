@@ -17,13 +17,19 @@ The results of a given input are printed to the console.
 2. The valid floor input range is 1-124. 124 comes from the Shanghai Tower in China. 
 
 # Commands
-1. --floors <starting floor> <floor>,<floor>,<floor,...
-    give a starting floor and then a list of floors to process
-2. --floors-rand <min floor> <max floor> <number of floor changes>
+1. --floors start floor,floor,floor,etc
+    give a starting floor and then a list of floors to process.
+    start -> the starting floor
+    floor,floor,floor, etc -> the list of floors to visit
+2. --floors-rand min max num
     give the min and max floor for a range and then the number of changes 
     you wish to have happen.
-3. --path <input path>
+    min -> the mininum floor
+    max -> the maximum floor
+    num -> the number of floors you wish to visit
+3. --path input
     give the absolute path you wish to process. The files must be in the following format. The first line contains the starting floor, the second line contains the floor list separated by commas, and the third line contains the time constant. I have included some example files in ./file_inputs.
+    input -> the path where the files are
 
 # Architecture Comments
 I picked a basic factory style implementation. This enables new commands and features to be added without impacting the main structure of the code.
