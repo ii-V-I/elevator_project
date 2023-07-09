@@ -20,7 +20,7 @@ The results of a given input are printed to the console.
 1. --floors start floor,floor,floor,etc
     give a starting floor and then a list of floors to process.
     start -> the starting floor
-    floor,floor,floor, etc -> the list of floors to visit
+    floor,floor,floor,etc -> the list of floors to visit
 2. --floors-rand min max num
     give the min and max floor for a range and then the number of changes 
     you wish to have happen.
