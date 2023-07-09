@@ -16,6 +16,7 @@ The results of a given input are printed to the console.
 1. All inputs are well formed.
 2. The valid floor input range is 1-124. 124 comes from the Shanghai Tower in China. 
 3. The user will execute one command at a time.
+4. Answers are printed to the console directly.
 
 # Commands
 1. --floors start floor,floor,floor,etc
@@ -44,3 +45,4 @@ I wanted to have the user be able to issue commands like in a real elevator. Due
 A logging feature would help provide insight into what the elevator was and is doing.
 
 ## Elevator Manager Concept
+This would be a feature where one could run N elevators at a given time. This would be a cool application of multithread, command management, and creating meaningful outputs in potentially busy console logs.
